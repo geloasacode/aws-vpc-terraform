@@ -1,5 +1,7 @@
 # AWS VPC Infrastructure as Code with Terraform
 
+![aws-vpc](aws-vpc.png)
+
 This project demonstrates how to create and manage an Amazon Web Services (AWS) Virtual Private Cloud (VPC) infrastructure using Terraform. The code defines a VPC with both public and private subnets, sets up Internet connectivity, and launches Amazon Elastic Compute Cloud (EC2) instances in these subnets. With this Infrastructure as Code (IaC) approach, you can easily replicate and maintain your AWS VPC environment.
 
 ## Prerequisites
