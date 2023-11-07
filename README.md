@@ -31,6 +31,5 @@ Before getting started, make sure you have the following prerequisites in place:
 ## Cleanup
 To destroy the created resources and teardown the AWS VPC infrastructure, use the following command:
 
-    ```bash
-    terraform destroy
-
+   ```bash
+   terraform destroy -auto-approve
