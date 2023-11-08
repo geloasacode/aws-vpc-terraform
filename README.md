@@ -21,7 +21,7 @@ Before getting started, make sure you have the following prerequisites in place:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/geloasacode/aws-vpc-terraform.git
    cd aws-vpc-terraform
 
 2. Initialize Terraform and download the required providers:
