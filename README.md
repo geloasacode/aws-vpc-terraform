@@ -16,7 +16,7 @@ Before getting started, make sure you have the following prerequisites in place:
 
 4. **SSH Key Pair**: Create an SSH key pair for securely accessing your EC2 instances.
 
-## Usage
+## Usage and Clean-up ##
 
 1. Clone this repository to your local machine:
 
@@ -30,8 +30,7 @@ Before getting started, make sure you have the following prerequisites in place:
     terraform plan
     terraform apply
 
-## Cleanup
-To destroy the created resources and teardown the AWS VPC infrastructure, use the following command:
+3. To destroy the created resources and teardown the AWS VPC infrastructure, use the following command:
 
    ```bash
-   terraform destroy -auto-approve
+    terraform destroy -auto-approve
